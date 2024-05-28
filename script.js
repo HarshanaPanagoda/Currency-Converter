@@ -1,4 +1,4 @@
-const apiKey = "zCTQ0xpsIPB0zDJe3s8abGhMLLgKJjX8"; // Use Your API key
+const apiKey = "YOUR_API_KEY";
 const apiUrl = `https://api.apilayer.com/exchangerates_data/convert?apikey=${apiKey}`;
 
 const fromAmount = document.getElementById("fromAmount");
