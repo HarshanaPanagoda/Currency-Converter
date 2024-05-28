@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+  </head>
+  <body>
+    <div class="currency-converter">
+      <div class="currency-form currency from">
+        <input type="number" id="fromAmount" value="1" />
+        <select id="fromCurrency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <!-- Can Added more options here as needed -->
+        </select>
+      </div>
+
+      <div class="equalsign">=</div>
+
+      <div class="currency-form currency to">
+        <input type="number" id="toAmount" value="" />
+        <select id="toCurrency">
+          <option value="LKR">SriLankan Rupees</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <!-- Can Added more options as needed -->
+        </select>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
